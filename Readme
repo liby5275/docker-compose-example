@@ -1,0 +1,13 @@
+to use docker-compose...
+
+1.put docker file, Jar and docker.compose.yml in one folder. (src/main/docker)
+2. open terminal from the above folder.
+3. sudo snap start docker - to start the docker(if yiu have installed docker using snap)
+4. sudo docker-compose up
+5. Optional - if you want to re run again after changing the source code- follow below steps
+6. Ctrl +C in the terminal
+7. sudo docker-compose down - to stop the docker
+8. sudo docker images -  to display the images
+9. sudo docker rmi <image_name> = to remove the image
+10.copy the latest jar to the main/docker folder
+11.sudo docker-compose up - to start again
