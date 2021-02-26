@@ -1,3 +1,6 @@
+Spring Boot + Docker Compose + PostgreSQL
+
+
 to use docker-compose...
 
 1.put docker file, Jar and docker.compose.yml in one folder. (src/main/docker)
